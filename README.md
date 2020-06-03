@@ -33,7 +33,7 @@ register localhost first and test local server as following
     ServerName test.test
     DocumentRoot "E:/my/project/Test"
     <Directory E:/my/project/Test>  
-        AllowOverride none
+        AllowOverride All
         Require all granted  
     </Directory>
 </VirtualHost>
